@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { PensamentoService } from '../pensamento/pensamento.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-criar-pensamento',
@@ -8,13 +10,15 @@ import { Component, OnInit } from '@angular/core';
 export class CriarPensamentoComponent implements OnInit {
 
   pensamento = {
-    id: '1',
-    conteudo: 'Aprendendo Angular',
-    autoria: 'Dev',
-    modelo: 'modelo1'
+    conteudo: '',
+    autoria: '',
+    modelo: ''
   }
 
-  constructor() {}
+  constructor(
+    private service: PensamentoService,
+    private router: Router
+    ) {}
 
   ngOnInit(): void {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
@@ -23,11 +27,13 @@ export class CriarPensamentoComponent implements OnInit {
   }
 
   save(){
-    alert("hello, save here");
+   this.service.criar(this.pensamento).subscribe(()=>{
+    this.router.navigate(['/home'])
+   })
   }
 
   cancelar(){
-    alert("pensamento, cancelado")
+    this.router.navigate(['/home'])
   }
 
 

@@ -2,45 +2,45 @@
   "pensamentos": [
     {
       "id": 1,
-      "conteudo": "Que bom que cheguei até aqui",
-      "autoria": "LgVarella",
-      "modelo": "modelo1"
+      "conteudo": "Eu não vim até aqui para desistir agora",
+      "autoria": "Engenheiros do Havaí",
+      "modelo": "modelo3"
     },
     {
       "id": 2,
-      "conteudo": "Que bom que cheguei até aqui",
-      "autoria": "LgVarella",
+      "conteudo": "Água mole, pedra dura, tanto bate até que fura.",
+      "autoria": "Popular",
       "modelo": "modelo2"
     },
     {
       "id": 3,
-      "conteudo": "Que bom que cheguei até aqui",
-      "autoria": "LgVarella",
+      "conteudo": "Papagaio que acompanha joão-de-barro vira ajudante de pedreiro.",
+      "autoria": "Popular",
       "modelo": "modelo3"
     },
     {
       "id": 4,
-      "conteudo": "Que bom que cheguei até aqui",
-      "autoria": "LgVarella",
+      "conteudo": "Quem espera sempre alcança",
+      "autoria": "Popular",
       "modelo": "modelo2"
     },
     {
       "id": 5,
-      "conteudo": "Que bom que cheguei até aqui",
-      "autoria": "LgVarella",
+      "conteudo": "O seguro morreu de velho",
+      "autoria": "Popular",
+      "modelo": "modelo3"
+    },
+    {
+      "id": 6,
+      "conteudo": "Quem semeia vento, colhe tempestade.",
+      "autoria": "(Oseias 8:7)",
       "modelo": "modelo1"
     },
     {
-      "conteudo": "Pensamento teste",
-      "autoria": "Dev Angular",
-      "modelo": "modelo3",
-      "id": 6
-    },
-    {
-      "conteudo": "chega de sanguessugas",
-      "autoria": "alguem cansado",
-      "modelo": "modelo3",
-      "id": 7
+      "id": 7,
+      "conteudo": "Águas passadas não movem moinho.",
+      "autoria": "Popular",
+      "modelo": "modelo1"
     }
   ]
 }

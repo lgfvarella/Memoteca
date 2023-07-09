@@ -18,8 +18,8 @@ A curso tem a finalidade de ensinar:
 - Desenvolver um CRUD
 
 ## Layout web
-![Web 1](https://github.com/lgfvarella/Memoteca/blob/main/src/assets/imagens/memoteca.png)
-![Web 2](https://github.com/lgfvarella/Memoteca/blob/main/src/assets/imagens/memotecaCriar.png)
+![Web 1](https://github.com/lgfvarella/Memoteca/blob/main/memoteca/src/assets/imagens/memoteca.png)
+![Web 2](https://github.com/lgfvarella/Memoteca/blob/main/memoteca/src/assets/imagens/memotecaCriar.png)
 
 # Tecnologias utilizadas
 
@@ -51,10 +51,10 @@ npm start
 ## Front end
 Pré-requisitos: npm / Angular version 16
 
-```bash
 # instalar node v18.16.0
 [node](https://nodejs.org/download/release/v18.16.0/)
 
+```bash
 # instalar Angular cli
 npm install -g @angular/cli 
 
